@@ -11,6 +11,9 @@ Usage:
 $ docker run -e DATABASE_URL="mysql://user:pass@hostname/dbname" -p 5000:5000 -t sherzberg/sandman-mysql
 ```
 
+Now visit [http://localhost:5000](http://localhost:5000) in your
+browser to view the database with a nice interface.
+
 Coming Soon:
 ------------
 
