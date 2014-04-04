@@ -8,7 +8,7 @@ Usage:
 ------
 
 ```bash
-$ docker run -e DATABASE_URL="mysql://user:pass@hostname/dbname" -p 5000:5000 -t sherzberg/sandman-mysql
+$ docker run -e DATABASE_URL="mysql://user:pass@hostname/dbname" -p 5000:5000 -t sherzberg/sandmanctl-mysql
 ```
 
 Now visit [http://localhost:5000](http://localhost:5000) in your
