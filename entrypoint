@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ -z "${DATABASE_URL:-}" ];
+then
+        echo "Please set DATABASE_URL"
+	exit
+fi
+
+sandmanctl $DATABASE_URL
