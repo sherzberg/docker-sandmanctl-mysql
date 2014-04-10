@@ -2,8 +2,7 @@
 
 if [ -z "${DATABASE_URL:-}" ];
 then
-        echo "Please set DATABASE_URL"
-	exit
+        DATABASE_URL="mysql://$DB_ENV_MYSQL_USER:$DB_ENV_MYSQL_PASSWORD@$DB_PORT_3306_TCP_ADDR:$DB_PORT_3306_TCP_PORT/$DB_ENV_MYSQL_DATABASE"
 fi
 
 sandmanctl $DATABASE_URL
