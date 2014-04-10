@@ -2,7 +2,9 @@ docker-sandmanctl-mysql
 =======================
 
 This project was built to be a database browser for mysql
-using [Sandman](https://sandman.readthedocs.org/en/latest/).
+using [Sandman](https://sandman.readthedocs.org/en/latest/). 
+Specifically this was created to have a clean interface into
+running docker mysql database instances.
 
 Usage:
 ------
@@ -26,8 +28,3 @@ variables to setup the database, user, and password.
 
 Now visit [http://localhost:5000/admin](http://localhost:5000/admin) in your
 browser to view the database with a nice interface.
-
-Coming Soon:
-------------
-
-* Docker links
