@@ -6,6 +6,12 @@ using [Sandman](https://sandman.readthedocs.org/en/latest/).
 Specifically this was created to have a clean interface into
 running docker mysql database instances.
 
+It is the equivalent of running something like:
+
+```bash
+$ sandmanctl mysql://user:pass@host:port/dbname
+```
+
 Usage:
 ------
 
